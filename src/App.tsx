@@ -1,9 +1,16 @@
+/*
+ * @Author: linzeguang
+ * @Date: 2022-07-25 18:46:56
+ * @LastEditTime: 2022-07-26 16:03:22
+ * @LastEditors: linzeguang
+ * @Description:
+ */
 import { useState } from 'react';
 import './App.css';
 import reactLogo from './assets/react.svg';
 
 function App() {
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(1000);
 
   return (
     <div className="App">
