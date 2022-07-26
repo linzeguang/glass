@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "build": "tsc && vite build",
-    "dev": "vite",
-    "preview": "vite preview",  
+    "dev": "vite --host --port 4000",
     "lint": "npm run lint:js && npm run lint:prettier",
     "lint:js": "npx eslint src --cache --fix",
-    "lint:prettier": "npx prettier src --check --write"
+    "lint:prettier": "npx prettier src --check --write",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
